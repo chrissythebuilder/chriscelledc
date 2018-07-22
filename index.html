@@ -4,35 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" src = "assets/css/reset.css">
-    <link rel = "stylesheet" src = "assets/css/style.css">
+    <link rel = "stylesheet" href = "assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Merienda" rel="stylesheet">
+    <link rel = "stylesheet" href = "assets/css/style.css"> 
     <script src = "assets/javascript/portfolio.js"> </script>
-    <title>Chriscelle Dela Cruz</title>
+    <title> Chriscelle Dela Cruz </title>
 </head>
 
 
 <body>
-    <h1> About Me </h1>
-        <p> </p>
-    <h1> Personal Projects </h1>
-        <h2> Travel Planner </h2>
-        <p> <a href = "https://github.com/chrissythebuilder/TravelPlanner"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/TravelPlanner/"> Github Live </a> </p>
+    <div id = "welcome">
+        <!-- Add "hello" emoji beside name & animate name when hovered -->
+        <p id = "intro"> Hi, my name is Chriscelle Dela Cruz. <br> Welcome to my journey towards becoming a Software Engineer as I aspire in bridging the gap between humans &amp; computers - it's all about the experience and immersion. </p>
+    </div>
 
-        <p> First Major Group Project accomplished within 8 days of code work. </p>
-        <p> Technologies: HTML, CSS, JavaScript, jQUery, AJAX, and Firebase. </p>
+    <div id = "about">
+        <h1> About Me </h1> <hr>
+            <p> As someone starting a developer career path, I have chosen to take a full stack coding bootcamp to fully understand the fundamentals of building applications.  </p>
+    </div>
 
-        <p> Description: The main feature of our app is to build a list for travellers and locals to utilize for their trip. Date and destination are pre-selected to pull data from the Weather API to assist the user in planning their activities for the day. User gets to do a broad search for an activity (e.g. museum) or specific search of their point of interest (e.g. ROM). With the Google API we have selected, users can also view the images and reviews for the event. Final output is to compile these lists for users to refer to as they depart. </p>
+    <div id = "projects">
+        <!-- Add screenshots for each application -->
+        <h1> Personal Projects </h1> <hr>
+            <h2> Travel Planner </h2>
+            <p> <a href = "https://github.com/chrissythebuilder/TravelPlanner"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/TravelPlanner/"> Github Live </a> </p>
 
-        <h2> Trivia Game </h2>
-        <p> <a href = "https://github.com/chrissythebuilder/TriviaGame"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/TriviaGame/"> Github Live </a> </p>
+            <p> First Major Group Project accomplished within 8 days of code work. </p>
+            <p> Technologies: HTML, CSS, JavaScript, jQUery, AJAX, and Firebase </p>
+            <p> Description: The main feature of our app is to build a list for travellers and locals to utilize for their trip. Date and destination are pre-selected to pull data from the Weather API to assist the user in planning their activities for the day. User gets to do a broad search for an activity (e.g. museum) or specific search of their point of interest (e.g. ROM). With the Google API we have selected, users can also view the images and reviews for the event. Final output is to compile these lists for users to refer to as they depart. </p>
 
-        <h2> Give me a Giphy </h2>        
-        <p> <a href = "https://github.com/chrissythebuilder/GiphyPage"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/GiphyPage/"> Github Live </a> </p>
+            <h2> Trivia Game </h2>
+            <p> <a href = "https://github.com/chrissythebuilder/TriviaGame"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/TriviaGame/"> Github Live </a> </p>
 
-        <h2> Crystal Bonanza </h2>        
-        <p> <a href = "https://github.com/chrissythebuilder/unit-4-game"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/unit-4-game/"> Github Live </a> </p>
+            <p> Technologies Used: HTML, CSS, jQuery, JS</p>
+            <p> Description: Built a timed trivia game where the user only has 120 seconds to answer 10 questions. The user can only select one answer for each question and once finished, the submit button must be selected where the user is brought to a page where it shows his/her score. If the user did not finish on time then the test will automatically stop to bring him/her to the score page. </p>
 
-    <h1> Contact Me </h1>
+            <h2> Give me a Giphy </h2>        
+            <p> <a href = "https://github.com/chrissythebuilder/GiphyPage"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/GiphyPage/"> Github Live </a> </p>
+
+            <p> Technologies Used: HTML, CSS, jQUery, JS, AJAX, API, JSON</p>
+            <p> Description: Use of the Giphy Page API to generate Gifs for the theme chosen, in my case: emotions. A user can add more emotions into the selection and once a button has been selected, the page will load 10 gifs that reflects the specific emotion. </p>
+
+            <h2> Crystal Bonanza </h2>        
+            <p> <a href = "https://github.com/chrissythebuilder/unit-4-game"> Github Repo </a> | <a href = "https://chrissythebuilder.github.io/unit-4-game/"> Github Live </a> </p>
+
+            <p> Technologies Used: HTML, CSS, JS, jQuery</p>
+            <p> Description: A one-player game where the objective is to match the final score to the random score that was generated. Each crystal on the page has a random number attached to it so the user has to figure out what the value of each crystal is to help them get to the score they desire to attain. If the score matches, the user gets a winning point and if the user exceeds the random number then the user gets a losing point. </p>
+    </div>
+
+    <div id = "contact">
+        <h1> Contact Me </h1>
+
+        <form id = "contact-form">
+            <p> Name </p>
+            <input type = "text" placeholder = "your full name" id = "name">
+            <p> Email </p>
+            <input type = "text" placeholder = "your email address" id = "email">
+            <p> Message </p>
+            <input type = "text" placeholder = "tell me your thoughts" id = "message"> <br>
+            <button type = "submit" id = "submit"> Submit </button>
+        </form>
+    </div>
+
 </body>
 
 </html>

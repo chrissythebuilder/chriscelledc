@@ -1,0 +1,31 @@
+/* body {
+    margin: 50px;
+} */
+
+#about {
+    margin: 50px 100px;
+}
+
+#intro {
+    font-size: 275%;
+    text-align: center;
+    padding: 120px 150px;
+    width: 100%;
+    background: lightcoral;
+    margin: 100px auto;
+    font-family: 'Eczar', serif;
+    border-top: 20px solid sienna;
+    border-bottom: 20px solid sienna;
+}
+
+#projects {
+    margin: 50px 100px;
+}
+
+#contact {
+    margin: 50px 100px;
+}
+
+input {
+    margin-bottom: 30px;
+}
