@@ -1,7 +1,3 @@
-/* body {
-    margin: 50px;
-} */
-
 #about {
     margin: 50px 100px;
 }
@@ -11,11 +7,19 @@
     text-align: center;
     padding: 120px 150px;
     width: 100%;
-    background: lightcoral;
     margin: 100px auto;
-    font-family: 'Eczar', serif;
+    /* font-family: 'Eczar', serif; */
+    font-family: 'Lobster', cursive;
     border-top: 20px solid sienna;
     border-bottom: 20px solid sienna;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'PT Sans', serif, Arial;
 }
 
 #projects {
@@ -28,4 +32,10 @@
 
 input {
     margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'PT Sans', serif, Arial;
+    font-size: 110%;
 }
