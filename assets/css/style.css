@@ -2,16 +2,29 @@
     margin: 50px 100px;
 }
 
-#intro {
-    font-size: 275%;
-    text-align: center;
-    padding: 120px 150px;
+#welcome {
     width: 100%;
-    margin: 100px auto;
+    margin: 80px auto;
     /* font-family: 'Eczar', serif; */
     font-family: 'Concert One', cursive;
     border-top: 20px solid sienna;
     border-bottom: 20px solid sienna;
+}
+
+#intro {
+    font-size: 275%;
+    text-align: center;
+    padding: 100px 150px 50px 150px;
+}
+
+#connect {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#contact-me {
+    text-align: right;
+    margin: 10px 10px;
 }
 
 h1 {
