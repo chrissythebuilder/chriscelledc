@@ -7,13 +7,39 @@
     margin: 80px auto;
     /* font-family: 'Eczar', serif; */
     font-family: 'Concert One', cursive;
-    border-top: 20px solid sienna;
-    border-bottom: 20px solid sienna;
+    /* background: #F4F1BB; */
+    /* border-top: 20px solid sienna;
+    border-bottom: 20px solid sienna; */
+}
+
+.container {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.salmon {
+    float: left;
+    background: #ED6A5A;
+}
+
+.yellow {
+    float: left;
+    background: #F4F1BB;
+}
+
+.green {
+    float: left;
+    background: #A1BA89;
+}
+
+.col-sm {
+    padding: 8px;
+    margin-right: 5px;
 }
 
 #intro {
     font-size: 150%;
-    /* text-align: center; */
     padding: 100px 150px 50px 150px;
 }
 
