@@ -1,20 +1,11 @@
-#about {
-    margin: 50px 100px;
-}
+/* Full Page Layout */
 
-#welcome {
-    width: 100%;
-    margin: 80px auto;
-    /* font-family: 'Eczar', serif; */
-    font-family: 'Concert One', cursive;
-    /* background: #F4F1BB; */
-    /* border-top: 20px solid sienna;
-    border-bottom: 20px solid sienna; */
+body {
+    margin: 50px 100px;
 }
 
 .container {
     display: inline-block;
-    margin-left: 50px;
     margin-bottom: 60px;
 }
 
@@ -38,36 +29,61 @@
     margin-right: 5px;
 }
 
+/* Landing Page */
+
+#welcome {
+    position: relative;
+    margin: 0 auto;
+    padding: 100px 50px 150px 50px;
+    background: rgba(255, 182, 193,.5);
+    font-family: 'VT323', monospace;
+}
+
 #intro {
     font-size: 150%;
-    padding: 100px 150px 50px 150px;
+    text-align: center;
+    /* font-family: 'Work Sans', sans-serif, Arial; */
+}
+
+#name {
+    /* font-family: 'Spirax', cursive; */
+    font-size: 200%;
+}
+
+img {
+    width: 15vw;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
 }
 
 #connect {
+    float: left;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+}
+
+/* About Me Section */
+
+#welcome {
+    width: 100%;
+    margin: 80px auto;
 }
 
 #contact-me {
+    position: fixed;
+    float: right;
     text-align: right;
-    margin: 10px 10px;
+    margin-top: -50px;
+    margin-right: -50px;
 }
 
 h1 {
     text-align: center;
 }
 
-h2 {
-    font-family: 'PT Sans', serif, Arial;
-}
-
-#projects {
-    margin: 50px 100px;
-}
-
-#contact {
-    margin: 50px 100px;
-}
 
 input {
     margin-bottom: 30px;
@@ -75,6 +91,6 @@ input {
 
 p {
     text-align: justify;
-    font-family: 'PT Sans', serif, Arial;
     font-size: 110%;
 }
+
