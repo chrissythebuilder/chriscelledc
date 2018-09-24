@@ -6,7 +6,7 @@
 
 .container {
     display: inline-block;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .salmon {
@@ -34,7 +34,7 @@
 #welcome {
     position: relative;
     margin: 0 auto;
-    padding: 100px 50px 120px 50px;
+    padding: 120px 50px 120px 50px;
     background: rgba(161, 186, 137, .7);
     color: black;
     font-family: 'VT323', monospace;
@@ -70,7 +70,12 @@ img {
     margin-bottom: 100px;
 } */
 
+
 /* About Me Section */
+
+h1 {
+    margin-bottom: -15px;
+}
 
 #welcome {
     width: 100%;
