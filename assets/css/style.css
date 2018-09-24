@@ -1,12 +1,12 @@
 /* Full Page Layout */
 
-body {
+#content {
     margin: 50px 100px;
 }
 
 .container {
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom:30px;
 }
 
 .salmon {
@@ -34,36 +34,41 @@ body {
 #welcome {
     position: relative;
     margin: 0 auto;
-    padding: 100px 50px 150px 50px;
-    background: rgba(255, 182, 193,.5);
+    padding: 100px 50px 120px 50px;
+    background: rgba(161, 186, 137, .7);
+    color: black;
     font-family: 'VT323', monospace;
+    border: 10px solid salmon;
 }
 
 #intro {
-    font-size: 150%;
+    font-size: 175%;
     text-align: center;
     /* font-family: 'Work Sans', sans-serif, Arial; */
 }
 
 #name {
-    /* font-family: 'Spirax', cursive; */
-    font-size: 200%;
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: .5em;
+    margin-bottom: 25px;
 }
 
 img {
-    width: 15vw;
-    border-radius: 150px;
+    /* width: 15vw; */
+    border-radius: 500px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: -25px
 }
 
-#connect {
+/* #connect {
     float: left;
     text-align: center;
     margin-bottom: 100px;
-}
+} */
 
 /* About Me Section */
 
@@ -74,16 +79,15 @@ img {
 
 #contact-me {
     position: fixed;
-    float: right;
-    text-align: right;
-    margin-top: -50px;
-    margin-right: -50px;
+    top: 20px;
+    right: 30px;
 }
 
-h1 {
-    text-align: center;
-}
+#contact-me a {
+    text-decoration: none;
+    color: black;
 
+}
 
 input {
     margin-bottom: 30px;
@@ -94,3 +98,6 @@ p {
     font-size: 110%;
 }
 
+#about {
+    margin-bottom: 50px;
+}
