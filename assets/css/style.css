@@ -34,7 +34,7 @@
 #welcome {
     position: relative;
     margin: 0 auto;
-    padding: 120px 50px 120px 50px;
+    padding: 120px 50px 50px 50px;
     background: rgba(161, 186, 137, .7);
     color: black;
     font-family: 'VT323', monospace;
@@ -64,11 +64,16 @@ img {
     margin-top: -25px
 }
 
-/* #connect {
-    float: left;
+#nav {
     text-align: center;
-    margin-bottom: 100px;
-} */
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
 
 
 /* About Me Section */
@@ -98,11 +103,20 @@ input {
     margin-bottom: 30px;
 }
 
+.project-des {
+    margin-bottom: 50px;
+}
+
 p {
     text-align: justify;
-    font-size: 110%;
 }
 
 #about {
     margin-bottom: 50px;
+}
+
+/* Projects Section */
+
+#projects {
+    padding: 50px;
 }
