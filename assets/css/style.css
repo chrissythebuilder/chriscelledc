@@ -1,7 +1,5 @@
 /* Full Page Layout */
 
-
-
 body {
     margin: 50px 100px;
 }
@@ -58,6 +56,8 @@ body {
     color: black;
     font-family: 'VT323', monospace;
     border: 10px solid salmon;
+    width: 100%;
+    margin: 80px auto;
 }
 
 #intro {
@@ -92,11 +92,10 @@ body {
     text-decoration: none;
 }
 
-
 /* About Me Section */
 
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -104,20 +103,11 @@ h1 {
     float: left;
     width: 25vw;
     margin-right: 50px;
+    border: 4px solid saddlebrown;
 }
-
-#welcome {
-    width: 100%;
-    margin: 80px auto;
-}
-
 
 input {
     margin-bottom: 30px;
-}
-
-.project-des {
-    margin-bottom: 50px;
 }
 
 p {
@@ -126,6 +116,29 @@ p {
 
 #about {
     margin-bottom: 150px;
+}
+
+#about-me {
+    padding: 0 50px;
+}
+
+/* Skills Section */
+
+#skills {
+    margin-bottom: 100px;
+    background: rgba(175, 238, 238, .5);
+    border-radius: 50px;
+    padding: 80px 0;
+}
+
+#skills-set {
+    margin: 50px;
+}
+
+#skills svg {
+    width: 8vw;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
 
 /* Projects Section */
@@ -140,6 +153,7 @@ p {
     margin-right: 20px;
     padding: 30px;
     font-family: 'Cuprum', sans-serif;
+    margin-bottom: 50px;
 }
 
 #all-projects {
