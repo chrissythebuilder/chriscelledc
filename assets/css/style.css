@@ -1,8 +1,8 @@
 /* Full Page Layout */
 
-#content {
+/* #content {
     margin: 50px 100px;
-}
+} */
 
 h1 {
     margin-bottom: 30px;
@@ -31,7 +31,7 @@ h1 {
 
 #welcome {
     margin: 0 auto;
-    color: white;
+    color:black;
     font-family: 'VT323', monospace;
     width: 100%;
     margin: 80px auto;
@@ -89,6 +89,7 @@ p {
 }
 
 #about {
+    padding: 10px 70px 10px 50px;
     margin-bottom: 100px;
 }
 
@@ -100,9 +101,9 @@ p {
 /* Skills Section */
 
 #skills {
-    padding: 80px 0 50px 0;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-left: 30px;
 }
 
 #skills-set {
