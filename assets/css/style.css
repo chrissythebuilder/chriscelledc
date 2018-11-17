@@ -1,3 +1,30 @@
+#wrapper {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 100%
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-size: 150%
+}
+
+
+
+
+
+
+
+
+
 /* Landing Page */
 
 .navbar {
@@ -9,14 +36,15 @@
 
 .navbar img {
     margin-right: -50px;
+    border-radius: 250px;
 }
 
 #welcome {
     /* background-image: url("../images/pinkdust.png"); */
-    color: burlywood;
+    color: palevioletred;
     width: 100%;
     padding: 100px;
-    border: 15px groove saddlebrown
+    border: 15px solid saddlebrown;
 }
 
 #intro {
@@ -94,6 +122,7 @@ p {
 #projects h1 {
     margin-bottom: 50px;
     color: #f0f8ff;
+    text-align: center;
 }
 
 .carousel {
