@@ -13,13 +13,16 @@ body {
 }
 
 #title {
-    padding: 200px 20px;
+    margin: 200px auto;
+    width: 70vw;
+    display: block;
     /* font-family: 'Cabin Sketch', cursive; */
     /* font-family: 'Leckerli One', cursive; */
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 170%;
     color: black;
     text-align: center;
+    background: rgba(216, 112, 147, .8)
     /* background-image: url("../images/congruentpentagon.png"); */
 }
 
@@ -37,7 +40,7 @@ header img:hover {
     transform: scale(1.5);
 }
 
-#wrapper img {
+header img {
     border-radius: 200px;
     width: 30px;
     margin-right: 3px
@@ -50,9 +53,11 @@ h1 {
 #sections {
     /* background: blue; */
     border-top: 5px solid black;
+    border-bottom: 5px solid black;
     padding: 50px 30px;
     background: rgb(236, 134, 168);
     border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px
 }
 
 #sections h2 {
@@ -65,19 +70,36 @@ h1 {
     padding-bottom: 50px
 }
 
-.carousel {
-    width: 70vw;
-    margin: 0 auto;
+#projects {
+    position: relative;
 }
 
-.carousel-caption {
-    color: white;
-    padding: 3px;
-    background: rgba(113, 105, 134, 0.281);
+#projects h2 {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+#projects h4 {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.project-des {
+    display: inline-block;
+    margin-right: 50px
+}
+
+#projects img {
+    width: 350px;
+    height: 210px;
+    border-radius: 20px
+}
+
+#contact {
+    text-align: right;
 }
 
 footer {
-    background-image: url("../images/congruentpentagon.png");
+    /* background-image: url("../images/congruentpentagon.png"); */
     padding: 20px 0;
     text-align: center
 }
