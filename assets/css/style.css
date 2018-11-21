@@ -1,6 +1,6 @@
 #wrapper {
     height: 100%;
-    display: flex;
+    /* display: flex; */
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: flex-start;
@@ -9,120 +9,60 @@
 }
 
 body {
-    background: black;
-    color: white;
+    border: 5px solid black
+}
+
+#title {
+    padding: 200px 20px;
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Leckerli One', cursive; */
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 170%;
+    color: black;
+    text-align: center;
+    /* background-image: url("../images/congruentpentagon.png"); */
+}
+
+header {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header img:hover {
+    transform: scale(1.5);
+}
+
+#wrapper img {
+    border-radius: 200px;
+    width: 30px;
+    margin-right: 3px
 }
 
 h1 {
-    font-size: 150%
+    font-size: 150%;
 }
 
-
-
-
-
-
-
-
-
-/* Landing Page */
-
-.navbar {
-    position: fixed;
-    z-index: 100;
-    right: 20px;
-    top: 20px;
+#sections {
+    /* background: blue; */
+    border-top: 5px solid black;
+    padding: 50px 30px;
+    background: rgb(236, 134, 168);
+    border-top-right-radius: 250px;
 }
 
-.navbar img {
-    margin-right: -50px;
-    border-radius: 250px;
+#sections h2 {
+    /* font-family: 'Leckerli One', cursive; */
+    font-family: 'Cabin Sketch', cursive;
 }
 
-#welcome {
-    /* background-image: url("../images/pinkdust.png"); */
-    color: palevioletred;
-    width: 100%;
-    padding: 100px;
-    border: 15px solid saddlebrown;
-}
-
-#intro {
-    text-align: center;
-    font-size: 125%;
-    font-family: 'Righteous', cursive;
-}
-
-#name {
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Luckiest Guy', cursive;
-}
-
-/* About Me Section */
-
-#about h1 {
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    border-bottom: 5px solid black;
-    width: 200px;
-}
-
-#profile {
-    float: left;
-    width: 20vw;
-    margin-right: 50px;
-    border-radius: 400px
-}
-
-p {
-    text-align: justify;
-    font-size: 105%;
-}
-
-#about {
-    padding: 100px 70px 100px 50px;
-}
-
-#about-me {
-    padding: 0 50px;
-    font-family: 'Old Standard TT', serif;
-}
-
-/* Skills Section */
-
-#skills {
-    padding: 100px 50px 100px 50px;
-    background-image: url("../images/pipes.png")
-}
-
-#skills h1 {
-    margin-bottom: 50px;
-}
-
-#skills-set {
-    margin: 30px;
-}
-
-#skills svg {
-    width: 7vw;
-    margin-right: 60px;
-    margin-bottom: 20px;
-}
-
-/* Projects Section */
-
-#projects {
-    background-image: url("../images/pinkdust.png");
-    margin: 0 auto;
-    padding: 50px 0 100px 0;
-}
-
-#projects h1 {
-    margin-bottom: 50px;
-    color: #f0f8ff;
-    text-align: center;
+#sections p {
+    font-family: 'Share Tech Mono', monospace;
+    padding-bottom: 50px
 }
 
 .carousel {
@@ -136,36 +76,8 @@ p {
     background: rgba(113, 105, 134, 0.281);
 }
 
-/* Experience Section */
-
-#experience {
-    margin-top: 80px;
-}
-
-/* Contact Me Section */
-
-#contact {
-    padding: 100px 0 100px 50px;
-}
-
-input {
-    margin-bottom: 30px;
-}
-
-/* Footer Section */
-
 footer {
-    background-image: url("../images/pinkdust.png");
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 0 20px 0;
-    text-align: center;
-    color: aliceblue;
-}
-
-footer p {
-    color: aliceblue;
-    line-height: .5em;
-    text-align: center;
+    background-image: url("../images/congruentpentagon.png");
+    padding: 20px 0;
+    text-align: center
 }
