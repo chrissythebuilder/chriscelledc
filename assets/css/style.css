@@ -9,7 +9,8 @@
 }
 
 body {
-    border: 5px solid black
+    /* border: 5px solid black */
+    /* border: 5px solid darkcyan */
 }
 
 #title {
@@ -18,12 +19,21 @@ body {
     display: block;
     /* font-family: 'Cabin Sketch', cursive; */
     /* font-family: 'Leckerli One', cursive; */
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 170%;
-    color: black;
+    /* font-family: 'Allerta Stencil', sans-serif; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    color: rgb(2, 75, 75);
     text-align: center;
-    background: rgba(216, 112, 147, .8)
-    /* background-image: url("../images/congruentpentagon.png"); */
+}
+
+#title h1 {
+    /* font-family: 'Londrina Outline', cursive; */
+    font-family: 'Yeseva One', cursive;
+    /* font-family: 'Share Tech Mono', monospace; */
+    /* font-size: 350%; */
+    font-size: 320%;
+    font-weight: 800;
+    font-family: 'Cabin Sketch', cursive;
+    background: rgba(216, 112, 147, .8);
 }
 
 header {
@@ -43,31 +53,52 @@ header img:hover {
 header img {
     border-radius: 200px;
     width: 30px;
-    margin-right: 3px
-}
-
-h1 {
-    font-size: 150%;
+    margin-right: 3px;
 }
 
 #sections {
     /* background: blue; */
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-    padding: 50px 30px;
+    border-top: 5px solid darkcyan;
+    border-bottom: 5px solid darkcyan;
+    padding: 50px 30px 100px 30px;
     background: rgb(236, 134, 168);
-    border-top-right-radius: 250px;
-    border-bottom-left-radius: 250px
+    border-radius: 40px
 }
 
 #sections h2 {
-    /* font-family: 'Leckerli One', cursive; */
     font-family: 'Cabin Sketch', cursive;
+    /* font-family: 'Londrina Outline', cursive; */
+    /* font-family: 'Yeseva One', cursive; */
+    font-size: 180%;
+    font-weight: 900;
+    color: darkblue
 }
 
 #sections p {
     font-family: 'Share Tech Mono', monospace;
-    padding-bottom: 50px
+}
+
+#about {
+    margin-bottom: 80px;
+    width: 80vw;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    display: block
+}
+
+#about h2 {
+    text-align: center
+}
+
+#about img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 300px;
+    margin-bottom: 20px;
+    border: 2px solid darkblue
 }
 
 #projects {
@@ -75,23 +106,43 @@ h1 {
 }
 
 #projects h2 {
-    text-align: center;
     margin-bottom: 30px
 }
 
 #projects h4 {
     font-family: 'Share Tech Mono', monospace;
+    font-size: 125%
 }
 
 .project-des {
     display: inline-block;
-    margin-right: 50px
+    margin-right: 80px;
+    margin-bottom: 50px;
+    width: 350px;
 }
 
-#projects img {
+.project-des h5 {
+    font-size: 90%;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.project-des img {
     width: 350px;
     height: 210px;
-    border-radius: 20px
+    border-radius: 20px;
+    margin-bottom: 10px
+}
+
+.project-des p {
+    font-size: 90%;
+    text-align: justify
+}
+
+.project-title {
+    font-weight: 900;
+    text-decoration: underline
 }
 
 #contact {
