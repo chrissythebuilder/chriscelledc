@@ -100,6 +100,10 @@ header img {
     border: 2px solid darkblue
 }
 
+#projects {
+    margin-bottom: 100px
+}
+
 #projects h2 {
     margin-bottom: 30px;
     border-bottom: 3px solid darkblue;
@@ -146,10 +150,18 @@ header img {
 }
 
 .project-des img {
-    width: 350px;
+    width: 300px;
     height: 210px;
     border-radius: 20px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.project-des img:hover {
+    width: 350px;
+    height: 250px
 }
 
 .project-des p {
@@ -164,6 +176,32 @@ header img {
 .project-title {
     font-weight: 900;
     text-decoration: underline
+}
+
+#skills {
+    margin-bottom: 50px
+}
+
+#skills h2 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid darkblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 250%;
+    text-align: center
+}
+
+#skills svg {
+    width: 80px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#skills p {
+    text-align: center
 }
 
 #contact {
