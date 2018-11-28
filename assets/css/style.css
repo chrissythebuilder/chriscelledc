@@ -8,11 +8,6 @@
     width: 100%
 }
 
-body {
-    /* border: 5px solid black */
-    /* border: 5px solid darkcyan */
-}
-
 #title {
     margin: 200px auto;
     width: 70vw;
@@ -30,7 +25,8 @@ body {
     font-family: 'Yeseva One', cursive;
     /* font-family: 'Share Tech Mono', monospace; */
     /* font-size: 350%; */
-    font-size: 320%;
+    font-size: 315%;
+    line-height: 1.2em;
     font-weight: 800;
     font-family: 'Cabin Sketch', cursive;
     background: rgba(216, 112, 147, .8);
@@ -130,7 +126,7 @@ header img {
     font-size: 90%;
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 20px;
-    margin-top: 15px
+    margin-top: 30px
 }
 
 .project-des a {
@@ -194,7 +190,7 @@ header img {
 }
 
 #skills svg {
-    width: 80px;
+    width: 100px;
     margin-right: 30px;
     margin-bottom: 30px;
     display: inline-block;
@@ -218,6 +214,19 @@ header img {
     background: rgb(106, 209, 209)
 }
 
+#social a:hover {
+    text-decoration: none;
+}
+
+#social img {
+    border: 2px solid black;
+    width: 30px;
+}
+
+#social img:hover {
+    transform: scale(1.5);
+}
+
 footer {
     padding: 50px 0 30px 0;
 }
@@ -228,9 +237,9 @@ footer p {
     color: darkblue;
     background: rgba(216, 112, 147, .5);
     width: 250px;
+    text-align: center;
+    font-weight: 800;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    text-align: center;
-    font-weight: 800
 }
