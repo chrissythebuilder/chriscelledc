@@ -1,3 +1,6 @@
+$main-font: 'Cabin Sketch', cursive;
+$secondary-font: 'Share Tech Mono', monospace;
+
 #wrapper {
     height: 100%;
     flex-flow: row wrap;
@@ -15,15 +18,56 @@
     text-align: center;
 
     h1 {
-        font-family: 'Yeseva One', cursive;
         font-size: 315%;
         line-height: 1.2em;
         font-weight: 800;
-        font-family: 'Cabin Sketch', cursive;
+        font-family: $main-font;
         background: rgba(216, 112, 147, .8);
     }
 }
 
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40vw;
+    background: white;
+    position: fixed;
+    border-radius: 20px 20px 50px 50px;
+    display: none;
+    padding-top: 30px;
+
+    ul {
+        li {
+            text-align: center;
+            font-weight: 800;
+            padding: 10px 0;
+            font-family: $secondary-font;
+
+            a {
+                text-decoration: none;
+                color: black
+            }
+        }
+    }
+}
+
+.active {
+    display: block
+}
+
+#menu-toggle {
+    padding: 20px;
+    position: relative;
+
+    i {
+        position: fixed;
+        font-size: 140%;
+        background: white;
+        border-radius: 100px;
+        padding: 15px;
+        border: 1px solid black;
+    }
+}
 
 header {
     float: right;
@@ -53,14 +97,14 @@ header {
     border-radius: 40px;
 
     h2 {
-        font-family: 'Cabin Sketch', cursive;
+        font-family: $main-font;
         font-size: 180%;
         font-weight: 900;
         color: darkblue
     }
 
     p {
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $secondary-font;
     }
 }
 
@@ -103,7 +147,7 @@ header {
     }
 
     h4 {
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $secondary-font;
         text-align: center;
         font-size: 125%;
     }
@@ -115,7 +159,7 @@ header {
 
     h5 {
         font-size: 90%;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $secondary-font;
         margin-bottom: 20px;
         margin-top: 30px
     }
@@ -226,7 +270,7 @@ footer {
 
     p {
         line-height: .8em;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $secondary-font;
         color: darkblue;
         background: rgba(216, 112, 147, .5);
         width: 250px;

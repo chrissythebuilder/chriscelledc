@@ -21,12 +21,52 @@
 }
 
 #title h1 {
-  font-family: 'Yeseva One', cursive;
   font-size: 315%;
   line-height: 1.2em;
   font-weight: 800;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
   background: rgba(216, 112, 147, 0.8);
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40vw;
+  background: white;
+  position: fixed;
+  border-radius: 20px 20px 50px 50px;
+  display: none;
+  padding-top: 30px;
+}
+
+nav ul li {
+  text-align: center;
+  font-weight: 800;
+  padding: 10px 0;
+  font-family: "Share Tech Mono", monospace;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  display: block;
+}
+
+#menu-toggle {
+  padding: 20px;
+  position: relative;
+}
+
+#menu-toggle i {
+  position: fixed;
+  font-size: 140%;
+  background: white;
+  border-radius: 100px;
+  padding: 15px;
+  border: 1px solid black;
 }
 
 header {
@@ -59,14 +99,14 @@ header img:hover {
 }
 
 #sections h2 {
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
   font-size: 180%;
   font-weight: 900;
   color: darkblue;
 }
 
 #sections p {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
 }
 
 #about {
@@ -108,7 +148,7 @@ header img:hover {
 }
 
 #projects h4 {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   text-align: center;
   font-size: 125%;
 }
@@ -120,7 +160,7 @@ header img:hover {
 
 .project-des h5 {
   font-size: 90%;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   margin-bottom: 20px;
   margin-top: 30px;
 }
@@ -230,7 +270,7 @@ footer {
 
 footer p {
   line-height: .8em;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   color: darkblue;
   background: rgba(216, 112, 147, 0.5);
   width: 250px;
