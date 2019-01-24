@@ -12,26 +12,10 @@
   width: 100%;
 }
 
-#title {
-  margin: 200px auto;
-  width: 70vw;
-  display: block;
-  color: #024b4b;
-  text-align: center;
-}
-
-#title h1 {
-  font-size: 315%;
-  line-height: 1.2em;
-  font-weight: 800;
-  font-family: "Cabin Sketch", cursive;
-  background: rgba(216, 112, 147, 0.8);
-}
-
 nav {
-  margin-top: 10px;
   margin-left: 10px;
-  width: 40vw;
+  margin-top: 10px;
+  width: 20vw;
   background: white;
   position: fixed;
   border-radius: 20px 20px 50px 50px;
@@ -39,11 +23,25 @@ nav {
   padding-top: 30px;
 }
 
+@media (max-width: 580px) {
+  nav {
+    margin-top: 75px;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+}
+
 nav ul li {
   text-align: center;
   font-weight: 800;
   padding: 10px 0;
   font-family: "Share Tech Mono", monospace;
+}
+
+@media (max-width: 580px) {
+  nav ul li {
+    padding: 2px 0;
+  }
 }
 
 nav ul li a {
@@ -69,10 +67,32 @@ nav ul li a {
   border: 1px solid black;
 }
 
+#title {
+  margin-top: 40px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 250%;
+  line-height: 1.2em;
+  font-weight: 800;
+  font-family: "Cabin Sketch", cursive;
+  padding: 100px 10px;
+  border-radius: 70px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+@media (max-width: 580px) {
+  #title h1 {
+    font-size: 175%;
+  }
+}
+
 header {
   float: right;
-  margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 header a:hover {
@@ -91,11 +111,9 @@ header img:hover {
 }
 
 #sections {
-  border-top: 5px solid darkcyan;
-  border-bottom: 5px solid darkcyan;
   padding: 50px 30px 100px 30px;
   background: #ec86a8;
-  border-radius: 40px;
+  border: 5px solid lavenderblush;
 }
 
 #sections h2 {
