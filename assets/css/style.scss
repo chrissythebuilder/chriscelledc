@@ -88,13 +88,14 @@ nav {
         font-weight: 800;
         font-family: $main-font;
         // background: rgba(216, 112, 147, .8);
-        padding: 100px 10px;
+        padding: 100px 30px;
         // border: 3px solid pink;
         border-radius: 70px;
         font-family: 'Bungee Shade', cursive;
 
         @include desktop {
             font-size: 175%;
+            padding: 100px 30px;
         }
     }
 }

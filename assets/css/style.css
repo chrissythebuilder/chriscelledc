@@ -80,7 +80,7 @@ nav ul li a {
   line-height: 1.2em;
   font-weight: 800;
   font-family: "Cabin Sketch", cursive;
-  padding: 100px 10px;
+  padding: 100px 30px;
   border-radius: 70px;
   font-family: 'Bungee Shade', cursive;
 }
@@ -88,6 +88,7 @@ nav ul li a {
 @media (max-width: 580px) {
   #title h1 {
     font-size: 175%;
+    padding: 100px 30px;
   }
 }
 
